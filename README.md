@@ -12,7 +12,7 @@ __Folders__<br>
 - Data : contains the weather data used\*<br>
 - usmap : contains the shapefiles for drawing the continental US\*\*
 
-\* All weather data (in 'Data' folder) was obtained from: https://catalog.data.gov/dataset/ncdc-storm-events-database/resource/591ca36e-14c1-4bcf-b5fd-fc2f52afd13e?inner_span=True<br>
-\*\* The US map shapefiles (in 'usmap' folder) was retrieved from: https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.html<br>
+\* All weather data ('Data' folder) was obtained from: https://catalog.data.gov/dataset/ncdc-storm-events-database/resource/591ca36e-14c1-4bcf-b5fd-fc2f52afd13e?inner_span=True<br>
+\*\* US map shapefiles ('usmap' folder) was retrieved from: https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.html<br>
 
 Note: Weather data was truncated so it could be uploaded to GitHub
