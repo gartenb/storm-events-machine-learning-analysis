@@ -1,6 +1,6 @@
-#### __Using Machine Learning Techniques to Analyze Weather Data__
+## __Using Machine Learning Techniques to Analyze Weather Data__
 
-## __Contents__<br>
+#### __Contents__<br>
 __Files__<br>
 - map_clustering.ipynb : analyzes event groups using clustering.<br>
 - map\_svc.ipynb : builds on 'map_clustering.ipynb', and adds support vector machines<br>
