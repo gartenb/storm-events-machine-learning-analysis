@@ -1,0 +1,32 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="DISTANCE <= 0.0\ngini = 0.103\nsamples = 15421"] ;
+1 [label="CZ_TYPE_Z <= 0.5\ngini = 0.081\nsamples = 10054"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="DAMAGE_PROPERTY_0.0 <= 0.5\ngini = 0.068\nsamples = 8937"] ;
+1 -> 2 ;
+3 [label="gini = 0.027\nsamples = 2797"] ;
+2 -> 3 ;
+4 [label="gini = 0.076\nsamples = 6140"] ;
+2 -> 4 ;
+5 [label="SOURCE_Public <= 0.5\ngini = 0.028\nsamples = 1117"] ;
+1 -> 5 ;
+6 [label="gini = 0.022\nsamples = 1079"] ;
+5 -> 6 ;
+7 [label="gini = 0.064\nsamples = 38"] ;
+5 -> 7 ;
+8 [label="SOURCE_NWS Storm Survey <= 0.5\ngini = 0.089\nsamples = 5367"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="EVENT_ID <= 815817.0\ngini = 0.083\nsamples = 4903"] ;
+8 -> 9 ;
+10 [label="gini = 0.059\nsamples = 2319"] ;
+9 -> 10 ;
+11 [label="gini = 0.087\nsamples = 2584"] ;
+9 -> 11 ;
+12 [label="END_TIME <= 2356.5\ngini = 0.036\nsamples = 464"] ;
+8 -> 12 ;
+13 [label="gini = 0.035\nsamples = 460"] ;
+12 -> 13 ;
+14 [label="gini = 0.0\nsamples = 4"] ;
+12 -> 14 ;
+}

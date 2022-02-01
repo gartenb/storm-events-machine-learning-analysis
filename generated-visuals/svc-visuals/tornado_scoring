@@ -1,0 +1,8 @@
+Train/Test Split: 0.8
+Kernel: linear
+Confusion Matrix:
+[[754   0]
+ [  1 649]]
+Precision: 0.9993377483443708
+Recall: 0.9992307692307693
+F1 Score: 0.9992837432678754

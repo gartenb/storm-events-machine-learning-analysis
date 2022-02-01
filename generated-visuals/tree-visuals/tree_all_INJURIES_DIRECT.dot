@@ -1,0 +1,16 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="DEATHS_DIRECT <= 0.5\ngini = 0.001\nsamples = 15421"] ;
+1 [label="BEGIN_LOCATION_MURRIETA <= 0.5\ngini = 0.001\nsamples = 15364"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="gini = 0.001\nsamples = 15363"] ;
+1 -> 2 ;
+3 [label="gini = 0.0\nsamples = 1"] ;
+1 -> 3 ;
+4 [label="EVENT_TYPE_Tornado <= 0.5\ngini = 0.066\nsamples = 57"] ;
+0 -> 4 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+5 [label="gini = 0.056\nsamples = 54"] ;
+4 -> 5 ;
+6 [label="gini = 0.068\nsamples = 3"] ;
+4 -> 6 ;
+}
